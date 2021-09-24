@@ -1,0 +1,7 @@
+[gd_resource type="SpatialMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Textures/https _specials-images.forbesimg.com_imageserve_5f1cf5212fbd4f9ee6223c60_Ads-posted-on-a-billboard_960x0.jpg?fit=scale.jpeg" type="Texture" id=1]
+
+[resource]
+albedo_texture = ExtResource( 1 )
+uv1_scale = Vector3( 10, 10, 10 )

@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/Materials/magazines.tres" type="Material" id=1]
+[ext_resource path="res://Assets/3d models/scenes/office_table.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Levels/Main/House.gd" type="Script" id=3]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 7, 3, 5 )
+
+[node name="House" type="Spatial"]
+script = ExtResource( 3 )
+
+[node name="CSGMesh" type="CSGMesh" parent="."]
+use_collision = true
+invert_faces = true
+mesh = SubResource( 1 )
+material = ExtResource( 1 )
+
+[node name="scene" parent="." instance=ExtResource( 2 )]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 3, -1.67057, -1.55605 )

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/10 comerciais que marcaram os Anos 2000.mp3-c3e07bf1ef8e55d1e678403c90b0a937.mp3str"
+
+[deps]
+
+source_file="res://Assets/Audio/10 comerciais que marcaram os Anos 2000.mp3"
+dest_files=[ "res://.import/10 comerciais que marcaram os Anos 2000.mp3-c3e07bf1ef8e55d1e678403c90b0a937.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

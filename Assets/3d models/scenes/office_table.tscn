@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/3d models/office table/Mesh.mesh" type="ArrayMesh" id=1]
+[ext_resource path="res://Assets/Textures/https _specials-images.forbesimg.com_imageserve_5f1cf5212fbd4f9ee6223c60_Ads-posted-on-a-billboard_960x0.jpg?fit=scale.jpeg" type="Texture" id=2]
+[ext_resource path="res://Assets/3d models/office table/Mesh2.mesh" type="ArrayMesh" id=3]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_texture = ExtResource( 2 )
+uv1_scale = Vector3( 2, 2, 2 )
+
+[node name="scene" type="Spatial"]
+
+[node name="RootNode (gltf orientation matrix)" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0 )
+
+[node name="RootNode (model correction matrix)" type="Spatial" parent="RootNode (gltf orientation matrix)"]
+
+[node name="Office_tableobjcleanermaterialmergergles" type="Spatial" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)"]
+
+[node name="Mesh" type="MeshInstance" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Office_tableobjcleanermaterialmergergles"]
+mesh = ExtResource( 1 )
+material/0 = SubResource( 1 )
+
+[node name="Mesh2" type="MeshInstance" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/Office_tableobjcleanermaterialmergergles"]
+mesh = ExtResource( 3 )
+material/0 = SubResource( 1 )

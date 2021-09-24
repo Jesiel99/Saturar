@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/https _specials-images.forbesimg.com_imageserve_5f1cf5212fbd4f9ee6223c60_Ads-posted-on-a-billboard_960x0.jpg?fit=scale.jpeg-4a886091c89e027a805137dd7b4cef70.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Textures/https _specials-images.forbesimg.com_imageserve_5f1cf5212fbd4f9ee6223c60_Ads-posted-on-a-billboard_960x0.jpg?fit=scale.jpeg"
+dest_files=[ "res://.import/https _specials-images.forbesimg.com_imageserve_5f1cf5212fbd4f9ee6223c60_Ads-posted-on-a-billboard_960x0.jpg?fit=scale.jpeg-4a886091c89e027a805137dd7b4cef70.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=1
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=1
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
