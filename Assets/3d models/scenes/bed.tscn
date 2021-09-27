@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Materials/magazines.tres" type="Material" id=1]
+[ext_resource path="res://Assets/3d models/raw/door/Mesh.mesh" type="ArrayMesh" id=2]
+
+[node name="bed" type="Spatial"]
+
+[node name="RootNode (gltf orientation matrix)" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0 )
+
+[node name="RootNode (model correction matrix)" type="Spatial" parent="RootNode (gltf orientation matrix)"]
+
+[node name="bedobjcleanermaterialmergergles" type="Spatial" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)"]
+
+[node name="Mesh" type="MeshInstance" parent="RootNode (gltf orientation matrix)/RootNode (model correction matrix)/bedobjcleanermaterialmergergles"]
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )

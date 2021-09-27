@@ -18,6 +18,13 @@ config/name="FirstPersonStarter"
 run/main_scene="res://Levels/Main/Main.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=512
+window/size/height=300
+window/size/fullscreen=true
+window/stretch/mode="viewport"
+
 [global]
 
 hdpi=false

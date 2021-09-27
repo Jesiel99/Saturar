@@ -14,7 +14,7 @@ func _on_Timer_timeout():
 #		sfx.set_loop(true)
 		var speech_player = streamPlayer.duplicate()
 #		speech_player.stream = sfx
-		speech_player.volume_db -= array.size() * 5
+		speech_player.volume_db -= array.size() * 10
 		speech_player.play()
 		array.append(speech_player)
 		add_child(speech_player)
